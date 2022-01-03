@@ -3,7 +3,7 @@ from itertools import count
 
 
 def main():
-    secret = input().rstrip()
+    secret = input()
 
     print(part_1(secret))
     print(part_2(secret))

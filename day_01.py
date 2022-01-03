@@ -2,7 +2,7 @@ from itertools import accumulate
 
 
 def main():
-    parenthesis = input().rstrip()
+    parenthesis = input()
 
     print(part_1(parenthesis))
     print(part_2(parenthesis))

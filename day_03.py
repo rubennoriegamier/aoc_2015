@@ -1,5 +1,5 @@
 def main():
-    movements = input().rstrip()
+    movements = input()
 
     print(part_1(movements))
     print(part_2(movements))
